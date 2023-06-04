@@ -1,11 +1,13 @@
-.footer {
+footer 
+{
     height: 25vh;
     display: flex;
     flex-wrap: wrap;
     background-color: #e3dbdb;
 }
 
-.footer-heading {
+.Heading
+{
     display:flex;
     flex-direction: column;
     margin-right: 8rem;
@@ -15,14 +17,15 @@
     line-height: 2;
 }
 
-.footer-heading h2 {
+footer h2
+{
     margin-bottom: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-
 }
 
-.footer-list {
+.footer-list 
+{
     list-style-type:none;
     margin-left: -3rem;
     margin-top: -1ch;
