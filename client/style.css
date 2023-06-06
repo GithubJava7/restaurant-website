@@ -1,32 +1,24 @@
-footer 
-{
+footer {
     height: 25vh;
     display: flex;
     flex-wrap: wrap;
-    background-color: #e3dbdb;
-}
+    background-color: #e3dbdb; }
 
-.Heading
-{
-    display:flex;
+.heading {
+    display: flex;
     flex-direction: column;
     margin-right: 8rem;
     margin-left: 7rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    line-height: 2;
-}
+    line-height: 2; }
 
-footer h2
-{
+footer h2 {
     margin-bottom: 2rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
+    font-size: 20px; }
 
-.footer-list 
-{
-    list-style-type:none;
+footer ul {
+    list-style-type: none;
     margin-left: -3rem;
-    margin-top: -1ch;
-}
+    margin-top: -1ch; }
