@@ -1,24 +1,74 @@
-footer {
-    height: 25vh;
+#restaurant-menu {
+    border-left: 1px solid black;
+    background-color: #e1d7ca;
+    margin-right: 670px;
+    padding-top: -60px;
+}
+
+#first-row,
+#second-row,
+#third-row {
     display: flex;
-    flex-wrap: wrap;
-    background-color: #e3dbdb; }
+    margin-left: 30px;
+    margin-right: -80px;
+    align-items: center;
+    height:400px;
+}
 
-.heading {
-    display: flex;
-    flex-direction: column;
-    margin-right: 8rem;
-    margin-left: 7rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 2; }
+#appetizer,
+#menu,
+#main-course,
+#dessert,
+#drinks,
+#chefs-specials {
+    width: 30%;
+    padding: 50px;
+}
 
-footer h2 {
-    margin-bottom: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px; }
+#menu {
+    font-size: 88px;
+    overflow-wrap: break-word;
+}
 
-footer ul {
+#appetizer h2,
+#drinks h2,
+#dessert h2,
+#main-course h2 {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+#appetizer,
+#chefs-specials,
+#drinks {
+    border-left: 3px solid;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
     list-style-type: none;
-    margin-left: -3rem;
-    margin-top: -1ch; }
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.dish-name {
+    font-weight: bold;
+}
+
+.dish-price {
+    float: right;
+    font-weight: bold;
+}
+#chefs-specials h2{
+    background-color: black;
+    color:#e1d7ca;
+    width:300px;
+    height: 50px;
+}
