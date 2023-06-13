@@ -1,74 +1,23 @@
-#restaurant-menu {
-    border-left: 1px solid black;
-    background-color: #e1d7ca;
-    margin-right: 670px;
-    padding-top: -60px;
-}
-
-#first-row,
-#second-row,
-#third-row {
-    display: flex;
+#home img {
+    border-radius: 8px;
+    padding: 30px;
+    width: 400px;
     margin-left: 30px;
-    margin-right: -80px;
+
+}
+
+#home {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-right: 570px;
+}
+
+#home h4  {
+    padding-bottom: 10px;
+    display: flex;
     align-items: center;
-    height:400px;
+    justify-content: center;
 }
-
-#appetizer,
-#menu,
-#main-course,
-#dessert,
-#drinks,
-#chefs-specials {
-    width: 30%;
-    padding: 50px;
-}
-
-#menu {
-    font-size: 88px;
-    overflow-wrap: break-word;
-}
-
-#appetizer h2,
-#drinks h2,
-#dessert h2,
-#main-course h2 {
-    border-top: 3px solid;
-    border-bottom: 3px solid;
-}
-
-#appetizer,
-#chefs-specials,
-#drinks {
-    border-left: 3px solid;
-}
-
-h2 {
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-.dish-name {
-    font-weight: bold;
-}
-
-.dish-price {
-    float: right;
-    font-weight: bold;
-}
-#chefs-specials h2{
-    background-color: black;
-    color:#e1d7ca;
-    width:300px;
-    height: 50px;
+#home p{
+    margin-left: 27px;
 }
