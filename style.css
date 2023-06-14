@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #f7e6c4;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items {
+  order: 2;
+  display: flex;
+}
+
+.navbar-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.navbar-items a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Home */
+
+#home {
+  padding: 50px 0;
+  background-color: #f1c376;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#home h2 {
+  font-size: 2.3rem;
+}
+
+#home p {
+  font-size: 1.2rem;
+}
+
+.home-text {
+  flex: 1 1 400px;
+  padding: 30px;
+  margin: auto;
+}
+
+.home-image img {
+  display: block;
+  height: 400px;
+  max-width: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 10%;
+}
+
+/* Drinks */
+
+#drink-menu {
+  /* color: #f29727; */
+  background-color: #f7e6c4;
+}
+
+.drink-menu-heading {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 400;
+}
+
+.drink-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+
+.drink-menu-item {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.drink-description {
+  margin: auto 1.5rem;
+}
+
+.drink-description p {
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 500;
+}
+
+/* Reviews */
+
+#reviews {
+  padding: 3rem 0;
+  background-color: #f1c376;
+}
+
+.reviews-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.reviews-box .reviews-text {
+  margin: 2rem 0;
+}
+
+.reviews-box {
+  text-align: center;
+  padding: 2rem;
+}
+
+.customer-photo img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2.6rem;
+  font-weight: 200;
+  background-color: #f29727;
+}
+
+#footer ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+#footer h2 {
+  text-align: center;
+}
+
+#footer p {
+  text-align: center;
+}
+
+#footer .left-content {
+  float: left;
+  width: 50%;
+}
+
+#footer .right-content {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+
+#footer .right-content p {
+  font-weight: 700;
+}
+
+#footer .social-media {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.social-media a {
+  color: black;
+  text-decoration: none;
+}
