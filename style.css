@@ -156,10 +156,48 @@ body {
 
 /* Footer */
 
+#footer {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2.6rem;
+  font-weight: 200;
+  background-color: #f29727;
+}
+
+#footer ul {
+  list-style-type: none;
+  text-align: left;
+}
+
 #footer h2 {
   text-align: center;
-  font-size: 1.8rem;
-  padding: 2.6rem;
-  font-weight: 500;
-  background-color: #f29727;
+}
+
+#footer p {
+  text-align: center;
+}
+
+#footer .left-content {
+  float: left;
+  width: 50%;
+}
+
+#footer .right-content {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+
+#footer .right-content p {
+  font-weight: 700;
+}
+
+#footer .social-media {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.social-media a {
+  color: black;
+  text-decoration: none;
 }
