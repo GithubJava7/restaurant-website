@@ -1,232 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurant</title>
+    <title>Best Coffee</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div class="navbar">
-      <ul>
+    <nav class="navbar">
+      <ul class="navbar-items">
         <li><a href="#home">Home</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#order">Order Now</a></li>
+        <li><a href="#drink-menu">Menu</a></li>
         <li><a href="#reviews">Reviews</a></li>
       </ul>
-    </div>
-    <div id="home">
-      <img src="images/home1.jpg" />
-      <img src="images/home2.jpg" />
-      <h4>Welcome to our restaurant!</h4>
-      <p>
-        In this restaurant we believe that dining is not just about nourishing
-        the body but also about feeding the soul. We are more than just a
-        restaurant; we are a culinary destination that combines exceptional
-        food, warm hospitality, and a vibrant atmosphere to create an
-        unforgettable dining experience.
-      </p>
-      <p>
-        Our journey began with a simple vision: to create a place where people
-        could come together to enjoy delicious food made with passion and care.
-        Since our opening, we have been committed to sourcing the finest
-        ingredients, crafting each dish with creativity, and providing
-        unparalleled service to our guests. Our culinary team is led by talented
-        chefs who have honed their skills in renowned kitchens around the world.
-        They draw inspiration from global flavors while embracing local and
-        seasonal produce, resulting in a menu that showcases the best of both
-        worlds. From mouthwatering appetizers to exquisite main courses and
-        decadent desserts, every dish is thoughtfully prepared to delight your
-        taste buds.
-      </p>
-      <p>
-        But it's not just about the food. Step into our restaurant, and you'll
-        find yourself immersed in an inviting ambiance that reflects our
-        dedication to creating a welcoming space for our guests. Whether you're
-        celebrating a special occasion, enjoying a meal with loved ones, or
-        simply looking for a cozy spot to unwind, we have thoughtfully designed
-        our interiors to provide comfort and a touch of elegance.
-      </p>
-    </div>
-    <div id="restaurant-menu">
-      <div id="first-row">
-        <div id="menu">
-          <h1>MENU</h1>
+    </nav>
+    <section id="home">
+      <div class="home-wrapper container">
+        <div class="home-text">
+          <h2>Welcome to our coffee bar!</h2>
+          <br />
+          <p>
+            Indulge in the rich flavors of our coffee bar. Savor expertly brewed
+            coffees, handcrafted with care. From aromatic espressos to velvety
+            lattes, our baristas create liquid artistry. Join us for a
+            delightful coffee experience, where every sip awakens your senses.
+          </p>
         </div>
-        <div id="appetizer">
-          <h2>Appetizer.</h2>
-          <ul>
-            <li>
-              <span class="dish-name">Garlic Bread</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Potato Wedges</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Meat Ball</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Onion Rings</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">French Fries</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Ratatouille</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-          </ul>
+        <div class="home-image">
+          <img src="./images/bar.jpg" alt="Picture of our bar." />
         </div>
       </div>
-      <div id="second-row">
-        <div id="main-course">
-          <h2>Main Course</h2>
-          <ul>
-            <li>
-              <span class="dish-name">Grilled Fingerlings</span>
-              <span class="dish-price">$6.99</span>
-              <p>
-                Grilled potatoes with a Western flair served with sauce of
-                choice.
-              </p>
-            </li>
-            <li>
-              <span class="dish-name">Asian Pear Salad</span>
-              <span class="dish-price">$6.99</span>
-              <p>
-                Crisp pears and pecans with tender frisee, and maple syrup with
-                cheese.
-              </p>
-            </li>
-            <li>
-              <span class="dish-name">Roasted Acorn Squash</span>
-              <span class="dish-price">$6.99</span>
-              <p>
-                Spicy-sweet, soft wedges potatoes which makes a no-fuse holiday
-                meal
-              </p>
-            </li>
-            <li>
-              <span class="dish-name">Smothered Chicken</span>
-              <span class="dish-price">$6.99</span>
-              <p>
-                Grilled chicken breast topped with mushrooms, onions and Cheese.
-              </p>
-            </li>
-          </ul>
+    </section>
+    <section id="drink-menu">
+      <br />
+      <h2 class="drink-menu-heading">Menu</h2>
+      <div class="drink-menu-container container">
+        <div class="drink-menu-item">
+          <div class="drink-description">
+            <h2 class="drink-titile">Americano</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              dolore suscipit quidem.
+            </p>
+            <br />
+            <p class="drink-price">$3.99</p>
+          </div>
         </div>
-        <div id="chefs-specials">
-          <h2>Chef's Specials.</h2>
-          <ul>
-            <li>
-              <span class="dish-name">Grilled Fingerlings</span>
-              <span class="dish-price">$6.99</span>
-              <p>
-                Grilled potatoes with a Western flair served with sauce of
-                choice.
-              </p>
-            </li>
-            <li>
-              <span class="dish-name">Asian Pear Salad</span>
-              <span class="dish-price">$6.99</span>
-              <p>
-                Crisp pears and pecans with tender frisee, and maple syrup with
-                cheese.
-              </p>
-            </li>
-            <li>
-              <span class="dish-name">Roasted Acorn Squash</span>
-              <span class="dish-price">$6.99</span>
-              <p>
-                Spicy-sweet, soft wedges potatoes which makes a no-fuse holiday
-                meal
-              </p>
-            </li>
-            <li>
-              <span class="dish-name">Smothered Chicken</span>
-              <span class="dish-price">$6.99</span>
-              <p>
-                Grilled chicken breast topped with mushrooms, onions and Cheese.
-              </p>
-            </li>
-          </ul>
+        <div class="drink-menu-item">
+          <div class="drink-description">
+            <h2 class="drink-titile">Cappucino</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              dolore suscipit quidem.
+            </p>
+            <br />
+            <p class="drink-price">$3.99</p>
+          </div>
         </div>
-      </div>
-      <div id="third-row">
-        <div id="dessert">
-          <h2>Dessert.</h2>
-          <ul>
-            <li>
-              <span class="dish-name">Banana Split</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Cheese Cake</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Chocolate Ice Cream</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Fruit Cake</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-          </ul>
+        <div class="drink-menu-item">
+          <div class="drink-description">
+            <h2 class="drink-titile">Macchiato</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              dolore suscipit quidem.
+            </p>
+            <br />
+            <p class="drink-price">$3.99</p>
+          </div>
         </div>
-        <div id="drinks">
-          <h2>Drinks.</h2>
-          <ul>
-            <li>
-              <span class="dish-name">Coffee</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Ice / Hot Tea</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Thai Tea</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-            <li>
-              <span class="dish-name">Soda</span>
-              <span class="dish-price">$6.99</span>
-            </li>
-          </ul>
+        <div class="drink-menu-item">
+          <div class="drink-description">
+            <h2 class="drink-titile">Espresso</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              dolore suscipit quidem.
+            </p>
+            <br />
+            <p class="drink-price">$3.99</p>
+          </div>
+        </div>
+        <div class="drink-menu-item">
+          <div class="drink-description">
+            <h2 class="drink-titile">Latte</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              dolore suscipit quidem.
+            </p>
+            <br />
+            <p class="drink-price">$3.99</p>
+          </div>
+        </div>
+        <div class="drink-menu-item">
+          <div class="drink-description">
+            <h2 class="drink-titile">Mocha</h2>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              dolore suscipit quidem.
+            </p>
+            <br />
+            <p class="drink-price">$3.99</p>
+          </div>
         </div>
       </div>
-    </div>
-    <footer>
-      <div class="heading">
-        <h2>Contact Us!</h2>
-        <ul>
-          <li>Adresa: Rruga "Asllan Rusi"</li>
-          <li>Nr Cel: 0691111111</li>
-          <li>Email: restaurantwebsite@gmail.com</li>
-        </ul>
-      </div>
-      <div class="heading">
-        <h2>Follow Us On Social Media</h2>
-        <div>
-          <img src="images/instagram.png" />
-          <a href="https://www.instagram.com">Instagram</a>
+    </section>
+    <section id="reviews">
+      <h2 class="reviews-title">Reviews</h2>
+      <div class="reviews-container container">
+        <div class="reviews-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./images/john-doe.jpeg" />
+              <br />
+              <p class="customer-name">AngularJS Developer</p>
+            </div>
+          </div>
+          <p class="reviews-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem.
+          </p>
         </div>
-        <div>
-          <img src="images/facebook.png" />
-          <a href="https://www.facebook.com">Facebook</a>
+        <div class="reviews-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./images/jane-doe.jpeg" />
+              <br />
+              <p class="customer-name">VueJS Developer</p>
+            </div>
+          </div>
+          <p class="reviews-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem.
+          </p>
+        </div>
+        <div class="reviews-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./images/john-doe.jpeg" />
+              <br />
+              <p class="customer-name">ReactJS Developer</p>
+            </div>
+          </div>
+          <p class="reviews-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem.
+          </p>
         </div>
       </div>
-      <div class="heading">
-        <h2>All rights reserved Restoranti ⓒ2023</h2>
-        Tirana, Albania
-      </div>
-    </footer>
+    </section>
+
+    <footer id="footer"></footer>
   </body>
 </html>
