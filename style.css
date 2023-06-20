@@ -15,9 +15,8 @@ body {
 }
 
 /* Navbar */
-
 .navbar {
-  background-color: #f7e6c4;
+  background-color: #967e76;
   height: 65px;
   display: flex;
   justify-content: space-between;
@@ -44,10 +43,9 @@ body {
 }
 
 /* Home */
-
 #home {
   padding: 50px 0;
-  background-color: #f1c376;
+  background-color: #d7c0ae;
 }
 
 .home-wrapper {
@@ -79,11 +77,51 @@ body {
   border-radius: 10%;
 }
 
-/* Drinks */
+/* Form */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #eee3cb;
+}
 
+form {
+  background-color: #d7c0ae;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #967e76;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  border: none;
+}
+
+/* Menu */
 #drink-menu {
-  /* color: #f29727; */
-  background-color: #f7e6c4;
+  background-color: #d7c0ae;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .drink-menu-heading {
@@ -116,10 +154,13 @@ body {
 }
 
 /* Reviews */
-
 #reviews {
-  padding: 3rem 0;
-  background-color: #f1c376;
+  background-color: #d7c0ae;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
 }
 
 .reviews-title {
@@ -155,13 +196,12 @@ body {
 }
 
 /* Footer */
-
 #footer {
   text-align: center;
   font-size: 1.2rem;
   padding: 2.6rem;
   font-weight: 200;
-  background-color: #f29727;
+  background-color: #967e76;
 }
 
 #footer ul {

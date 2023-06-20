@@ -7,9 +7,9 @@
   <body>
     <nav class="navbar">
       <ul class="navbar-items">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#drink-menu">Menu</a></li>
-        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
       </ul>
     </nav>
     <section id="home">
@@ -29,123 +29,32 @@
         </div>
       </div>
     </section>
-    <section id="drink-menu">
-      <br />
-      <h2 class="drink-menu-heading">Menu</h2>
-      <div class="drink-menu-container container">
-        <div class="drink-menu-item">
-          <div class="drink-description">
-            <h2 class="drink-titile">Americano</h2>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-              dolore suscipit quidem.
-            </p>
-            <br />
-            <p class="drink-price">$3.99</p>
-          </div>
-        </div>
-        <div class="drink-menu-item">
-          <div class="drink-description">
-            <h2 class="drink-titile">Cappucino</h2>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-              dolore suscipit quidem.
-            </p>
-            <br />
-            <p class="drink-price">$3.99</p>
-          </div>
-        </div>
-        <div class="drink-menu-item">
-          <div class="drink-description">
-            <h2 class="drink-titile">Macchiato</h2>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-              dolore suscipit quidem.
-            </p>
-            <br />
-            <p class="drink-price">$3.99</p>
-          </div>
-        </div>
-        <div class="drink-menu-item">
-          <div class="drink-description">
-            <h2 class="drink-titile">Espresso</h2>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-              dolore suscipit quidem.
-            </p>
-            <br />
-            <p class="drink-price">$3.99</p>
-          </div>
-        </div>
-        <div class="drink-menu-item">
-          <div class="drink-description">
-            <h2 class="drink-titile">Latte</h2>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-              dolore suscipit quidem.
-            </p>
-            <br />
-            <p class="drink-price">$3.99</p>
-          </div>
-        </div>
-        <div class="drink-menu-item">
-          <div class="drink-description">
-            <h2 class="drink-titile">Mocha</h2>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-              dolore suscipit quidem.
-            </p>
-            <br />
-            <p class="drink-price">$3.99</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="reviews">
-      <h2 class="reviews-title">Reviews</h2>
-      <div class="reviews-container container">
-        <div class="reviews-box">
-          <div class="customer-detail">
-            <div class="customer-photo">
-              <img src="./images/john-doe.jpeg" />
-              <br />
-              <p class="customer-name">AngularJS Developer</p>
-            </div>
-          </div>
-          <p class="reviews-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem.
-          </p>
-        </div>
-        <div class="reviews-box">
-          <div class="customer-detail">
-            <div class="customer-photo">
-              <img src="./images/jane-doe.jpeg" />
-              <br />
-              <p class="customer-name">VueJS Developer</p>
-            </div>
-          </div>
-          <p class="reviews-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem.
-          </p>
-        </div>
-        <div class="reviews-box">
-          <div class="customer-detail">
-            <div class="customer-photo">
-              <img src="./images/john-doe.jpeg" />
-              <br />
-              <p class="customer-name">ReactJS Developer</p>
-            </div>
-          </div>
-          <p class="reviews-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem.
-          </p>
-        </div>
+    <section>
+      <div class="container">
+        <form>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
       </div>
     </section>
     <footer id="footer">
